@@ -1,0 +1,137 @@
+/* Add application styles & imports to this file! */
+
+/* Global Styles */
+
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
+
+/* Text */
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 2px;
+}
+
+h3 {
+  font-size: 15px;
+  cursor: pointer;
+  color: #790d43;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 10px;
+}
+
+/* Hyperlink */
+
+a {
+  cursor: pointer;
+  color: #462fc9;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Buttons */
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: default;
+  background-color: #187adb;
+  color: white;
+}
+.button:hover, button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.button:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.button2, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 30px;
+  cursor: default;
+  background-color: #187adb;
+  color: white;
+}
+
+.button2:hover, button:hover {
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+.button2:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.button3, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #da3ab7;
+  color: white;
+}
+
+.button3:hover, button:hover {
+  opacity: 0.999;
+}
+
+/* Top Bar */
+
+app-home {
+  width: 100%;
+  height: 74px;
+  background-color: #187adb;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
